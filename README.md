@@ -28,14 +28,14 @@ Modifiez le fichier .env avec vos propres paramètres de configuration.
 Lancer l'application :
 
 npm start
-L'application sera accessible à l'adresse http://localhost:3000.
+L'application sera accessible à l'adresse http://localhost:3001.
 
 Tests
 Pour exécuter les tests unitaires et d'intégration :
 
 
 npm test
-Pour exécuter les tests d'intégration avec Selenium :
+Pour exécuter les tests d'intégration avec react :
 
 
 npm run selenium
@@ -49,7 +49,7 @@ docker build -t tableau-de-bord-interactif .
 Pour lancer un conteneur Docker à partir de l'image :
 
 
-docker run -p 3000:3000 -e MONGO_URI=<votre-uri-mongodb> tableau-de-bord-interactif
+docker run -p 3001:3001 -e MONGO_URI=<votre-uri-mongodb> tableau-de-bord-interactif
 Pour configurer le déploiement automatisé avec GitHub Actions, consultez le fichier .github/workflows/main.yml.
 
 Contribution
@@ -62,4 +62,4 @@ License
 Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
 
 Contact
-Pour toute question ou commentaire, veuillez contacter [votre nom] à [votre adresse e-mail].
+Pour toute question ou commentaire, veuillez contacter Scott à 105054@ecole-it.com.
